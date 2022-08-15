@@ -1,0 +1,84 @@
+{
+    "subMenus": [
+        {
+            "name": "ספיישלים",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "מרגריטה",
+                    "about": "גבינת מוצרלה, זיתים שחורים, עגבניות, פלפל חריף",
+                    "price": 50,
+                    "img": "Product-images/margarita.jpg"
+                },
+                {
+                    "id": 1,
+                    "name": "מרגריטה משופרת",
+                    "about": "פיצה עם רוטב עגבניות ושום בחיתוך דק דק שנותן טעם מיוחד",
+                    "price": 50,
+                    "img": "Product-images/margarita2.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "פטריות שום בצל",
+                    "about": "פיצה עם פיטריות שום בצל ופלפל צילי ",
+                    "price": 60,
+                    "img": "Product-images/garlic.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "פיצה בלאגן",
+                    "about": "פיצה עם בטטה אננס בולגרית וקונפי שום",
+                    "price": 60,
+                    "img": "Product-images/balagan.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "פיצה ניו יורק",
+                    "about": "פיצה עם גבינת ניו יורק חצילים ונגיעות פסטו",
+                    "price": 60,
+                    "img": "Product-images/new-york.jpg"
+                }
+            ]
+        },
+        {
+            "name": "קינוחים",
+            "items": [
+                {
+                    "id": 5,
+                    "name": "קרם בורלה",
+                    "about": "קינוח עם שכבת קרמל שרוף על קרם עדין וקטיפתי בטעם וניל",
+                    "price": 40,
+                    "img": "Product-images/kremburle.jpg"
+                },
+                {
+                    "id": 6,
+                    "name": "פאדג' שוקולד",
+                    "about": "עוגת פאגד מתוקה ומלאה בשוקולד משובח ",
+                    "price": 40,
+                    "img": "Product-images/fadj.jpg"
+                },
+                {
+                    "id": 7,
+                    "name": "עוגת ניו-יורק",
+                    "about": "עוגת גיבנה קלאסית שמונחת על מצה של פרורי לחם ",
+                    "price": 40,
+                    "img": "Product-images/newyorkcake.jpg"
+                },
+                {
+                    "id": 8,
+                    "name": "פררו פיסטוק-(צמחוני)",
+                    "about": "כדורי פררו רושה בטעם פיסטוק, כל ביס חוויה",
+                    "price": 35,
+                    "img": "Product-images/fererofistuk.jpg"
+                },
+                {
+                    "id": 9,
+                    "name": "פנקייקים",
+                    "about": "ערימת פנקנייקים גדולים וטעימים במיוחד",
+                    "price": 35,
+                    "img": "Product-images/Pancakes.jpg"
+                }
+            ]
+        }
+    ]
+}

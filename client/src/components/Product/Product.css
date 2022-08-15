@@ -1,0 +1,129 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+  width: 215px;
+  height: 355px;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 1px 1px 1px 1.5px #e6dada;
+  flex: none;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+.img-container {
+  width: 100%;
+  height: 155px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.product-img {
+  border-radius: 10px 10px 0px 0px;
+  width: 225px;
+  height: 155px;
+  margin-top: -13%;
+  padding: 2%;
+}
+.product-container .text-container {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  height: 25px;
+  width: 184px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #710903;
+}
+.aboutp-container {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  width: 184px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #666666;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin-top: -14px;
+}
+
+.price-container {
+  direction: rtl;
+  width: 184px;
+  height: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin-top: -7px;
+}
+.button-container {
+  margin-top: 20px;
+}
+
+.button-add {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  width: 184px;
+  height: 32px;
+  background: #ed6b4a;
+  border: solid #ed6b4a;
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  font-family: "Rubik", sans-serif;
+}
+.button-add:hover {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  width: 184px;
+  height: 32px;
+  background: #d34204;
+  border: solid #d34204;
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  font-family: "Rubik", sans-serif;
+}
+
+.qty-circuleNoItem {
+  background-color: #fff;
+}
+
+@media (min-width: 1600px) {
+  .orders {
+    margin: 2%;
+  }
+  .all-orders {
+    margin: 2% -5%;
+  }
+}

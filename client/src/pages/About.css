@@ -1,0 +1,43 @@
+.about-container {
+  height: 599.5px;
+  display: flex;
+  flex-direction: row-reverse;
+margin-top: -10px;
+}
+.img-about-container {
+  width: 721px;
+  height: 100%;
+}
+.img-about {
+  height: 100%;
+  width: 100%;
+}
+.about-title {
+  width: fit-content;
+  height: 44px;
+  direction: rtl;
+  color: #ed6b4a;
+  font-size: 42px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.story-container {
+  width: 50%;
+  height: 420px;
+  right: 0px;
+  top: 0px;
+  direction: rtl;
+  margin: auto;
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  background: #ffffff;
+}
+
+.about-text-container {
+  align-items: center;
+  width: 50%;
+  text-align: center;
+}
