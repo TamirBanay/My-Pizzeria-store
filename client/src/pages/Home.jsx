@@ -1,6 +1,6 @@
 import react from "react";
 import Product from "../components/Product/Product";
-import About from "./About";
+// import About from "./About";
 import Cart from "./Cart";
 import Contact from "./Contact";
 import "./Home.css";
