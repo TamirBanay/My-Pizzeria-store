@@ -1,5 +1,5 @@
 **/node_modules
 
-**/cachpy
+**/__pycache__
 
 env
