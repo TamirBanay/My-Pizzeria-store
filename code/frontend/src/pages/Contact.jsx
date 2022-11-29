@@ -10,13 +10,13 @@ export default function Contact(props) {
   return (
     <div>
       <div className="aftet-heading">
-        <img className="afterHeading-img" src={afterHeading} />
+        <img className="afterHeading-img" src={afterHeading}alt="" />
       </div>
 
       <div className="tree-container">
         <div className="container" id="address">
           <div className="icon-container">
-            <img className="location-img" src={location} />
+            <img className="location-img" src={location}alt="" />
           </div>
           <div className="text-contact-container">
             רחוב צפנייה 10, אשקלון
@@ -25,7 +25,7 @@ export default function Contact(props) {
         </div>
         <div className="container" id="mail">
           <div className="icon-container">
-            <img className="massege-img" src={massege} />
+            <img className="massege-img" src={massege} alt=""/>
           </div>
           <div className="text-contact-container">
             pizzeria@gmail.com
@@ -34,7 +34,7 @@ export default function Contact(props) {
         </div>
         <div className="container" id="phone">
           <div className="icon-container">
-            <img className="phone-img" src={phone} />
+            <img className="phone-img" src={phone}alt="" />
           </div>
           <div className="text-contact-container">
             08-6764571
@@ -44,7 +44,7 @@ export default function Contact(props) {
       </div>
       <div className="partTwo-container">
         <div className="pizza-container">
-          <img className="pizza-img" src={pizza} />
+          <img className="pizza-img" src={pizza} alt=""/>
         </div>
         <div className="sendUs-container">
           <h1 className="title-contact">שלחו לנו הודעה</h1>

@@ -18,7 +18,7 @@ export default function Cart(props) {
   const onPay = () => {
     // console.log( basket.item);
     service.PurchaseDetailsService.setPurchaseDetails(
-      basket,
+      // basket,
       cardDetails.name,
       cardDetails.price,
       cardDetails.cardNumber,

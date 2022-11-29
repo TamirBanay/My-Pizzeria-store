@@ -10,7 +10,7 @@ from myStore.serializers import PurchaseDetails
 @api_view(['GET'])
 @renderer_classes([JSONRenderer])
 def get_PurchaseDetails(_, PurchaseDetails):
-    PurchaseDetails = get_mock_PurchaseDetails()
+    # PurchaseDetails = get_mock_PurchaseDetails()
     serializer = PurchaseDetailsSerializer(PurchaseDetails)
 
     return Response(serializer.data, status=status.HTTP_200_OK)

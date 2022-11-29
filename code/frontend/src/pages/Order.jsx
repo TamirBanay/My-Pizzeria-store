@@ -60,6 +60,7 @@ export default function Order(props) {
         <div>
           <div className="icon-shopping">
             <img
+              alt=""
               className="cart-img"
               onClick={(onCartClick, showCart)}
               src={shoppingicon}
@@ -85,7 +86,7 @@ export default function Order(props) {
           ) : (
             <div className="qty-circule-emptry"></div>
           )}
-          
+
           <div className="all-orders">
             {info?.subMenus.map((subMenu) => (
               <div key={subMenu.name}>
