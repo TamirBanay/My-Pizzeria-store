@@ -1,6 +1,7 @@
 import "./Home.css";
-import logoNoBack from "../pages/Home-images/logoNoBack.png";
-import pizzas from "../pages/Home-images/pizzas.jpg";
+import logoNoBack from "./Home-images/logoNoBack.png";
+import pizzas from "./Home-images/pizzas.jpg"
+
 
 export default function Home() {
   return (

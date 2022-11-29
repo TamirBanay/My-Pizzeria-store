@@ -3,7 +3,7 @@ import minusButton from "./Cart-images/minusButton.png";
 import XButton from "./Cart-images/XButton.png";
 import plusButton from "./Cart-images/plusButton.png";
 import { useState } from "react";
-import service from "../services/api";
+import service from "../../services/api";
 
 //card card Details function
 export default function Cart(props) {
@@ -16,15 +16,15 @@ export default function Cart(props) {
   });
 
   const onPay = () => {
-    // console.log( basket.item);
     service.PurchaseDetailsService.setPurchaseDetails(
-      // basket,
+      basket,
       cardDetails.name,
       cardDetails.price,
       cardDetails.cardNumber,
       cardDetails.idOfPerson
     );
     alert("תודה " + cardDetails.name + ", ההזמנה נשלחה בהצלחה. ");
+    console.log(basket);
   };
 
   //save the card details as obj
@@ -59,7 +59,7 @@ export default function Cart(props) {
   function openPayment() {
     setGoPay(!goPay);
   }
-  console.log(goPay);
+  // console.log(goPay);
   //add to basket function
   const addQty = (obj) => {
     const itemInBasket = basket.find((x) => x.id === obj.item.id);
@@ -92,7 +92,6 @@ export default function Cart(props) {
       );
     }
   };
-  console.log(basket);
 
   return (
     <div>

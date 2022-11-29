@@ -1,7 +1,7 @@
 import "./Order.css";
 import shoppingicon from "./Order-images/shoppingicon.png";
-import Product from "../components/Product/Product";
-import Cart from "../pages/Cart";
+import Product from "../../components/Product/Product";
+import Cart from "../cart/Cart";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -25,7 +25,7 @@ export default function Order(props) {
   };
 
   const addToBasket = (item) => {
-    console.log(basket);
+    // console.log(basket);
 
     const inBasket = basket.find((x) => x.id === item.id);
     if (inBasket) {
@@ -43,7 +43,7 @@ export default function Order(props) {
   const removeFromBasket = (item) => {
     setBasket(basket.filter((x) => x.id !== item.id));
     setTotalPrice(totalPrice - item.price);
-    console.log(basket);
+    // console.log(basket);
   };
 
   return (
