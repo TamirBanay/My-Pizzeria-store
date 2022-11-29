@@ -3,6 +3,7 @@ import minusButton from "./Cart-images/minusButton.png";
 import XButton from "./Cart-images/XButton.png";
 import plusButton from "./Cart-images/plusButton.png";
 import { useState } from "react";
+import service from "../services/api";
 
 //card card Details function
 export default function Cart(props) {
@@ -15,7 +16,14 @@ export default function Cart(props) {
   });
 
   const onPay = () => {
-    console.log(cardDetails);
+    // console.log( basket.item);
+    service.PurchaseDetailsService.setPurchaseDetails(
+      basket,
+      cardDetails.name,
+      cardDetails.price,
+      cardDetails.cardNumber,
+      cardDetails.idOfPerson
+    );
     alert("תודה " + cardDetails.name + ", ההזמנה נשלחה בהצלחה. ");
   };
 
@@ -42,7 +50,7 @@ export default function Cart(props) {
         break;
     }
   }
-  
+
   // on click open Payment box
   const { basket, totalPrice, setTotalPrice, removeFromBasket, setBasket } =
     props;
@@ -61,15 +69,10 @@ export default function Cart(props) {
         x.id === obj.item.id
           ? { ...itemInBasket, num: itemInBasket.num + 1 }
           : x
-          
       )
-      
-      
-      
     );
 
     setTotalPrice(totalPrice + obj.item.price);
-
   };
 
   //remove from basket function
@@ -144,8 +147,7 @@ export default function Cart(props) {
           <div className="payment-popup">
             <div className="thePrice">סה"כ</div>
             <div className="btn-popup-container">
-              <button className="btn-payment-popup" onClick={openPayment} >
-              
+              <button className="btn-payment-popup" onClick={openPayment}>
                 המשך לתשלום
               </button>
             </div>

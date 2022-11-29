@@ -26,7 +26,7 @@ class PurchaseDetailsService {
   static setPurchaseDetails(items, name, price, cardNumber, idOfPerson) {
     return $axios
       .get(
-        `PurchaseDetails/data_from_client/${items}/${name}/${price}/${cardNumber}/${idOfPerson}`
+        `PurchaseDetails/get-PurchaseDetails/${items}/${name}/${price}/${cardNumber}/${idOfPerson}`
       )
       .then((response) => response.data);
   }
