@@ -1,10 +1,10 @@
 import Heading from "./components/heading/Heading";
-import Menu from "./pages/Menu";
-import Order from "./pages/Order";
+import Menu from "./pages/menu/Menu";
+import Order from "./pages/order/Order";
 import About from "./pages/About/About";
-import Contact from "./pages/Contact";
-import Cart from "./pages/Cart";
-import Home from "./pages/Home";
+import Contact from "./pages/contect/Contact";
+import Cart from "./pages/cart/Cart";
+import Home from "./pages/home/Home";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

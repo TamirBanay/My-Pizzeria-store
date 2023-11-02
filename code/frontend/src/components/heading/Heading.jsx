@@ -1,11 +1,7 @@
 import "./Heading.css";
 import logo from "./logo.png";
-// import About from "../../pages/About";
-import Contact from "../../pages/Contact";
-// import Order from "../../pages/Order";
-// import Menu from "../../pages/Menu";
+
 import React, { useState } from "react";
-// import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,7 +10,7 @@ import {
   Routes,
   useParams,
 } from "react-router-dom";
-import Order from "../../pages/Order";
+import Order from "../../pages/order/Order";
 
 function Heading(props) {
   return (
